@@ -1,0 +1,211 @@
+#Wrapper{
+	.Left{
+		h2{
+                 font-size:20px;
+                 color:#000;
+                 margin:7px;
+            }
+            #SideCategoryShopByPrice{
+                  padding:10px;        
+                        h2{
+                              background-color: #812600;
+                              border-bottom: 1px solid #5A0D00;
+                              border-top: 1px solid #5A0D00;
+                              font-size: 15px;
+                              padding: 11px 10px 10px;
+                              margin: 0;
+                              color: #fff;
+                              text-shadow: 1px 1px 0px #411B07;  
+                              margin:5px;
+                              border:1px solid #812600;
+                              &[data-ur-state="disabled"] {
+                                                 > .mw_indicator {
+                                                      @extend .sprites-plus;
+                                                      float: right;
+                                                                  }
+                                                      border-radius: 6px;
+                                                      }
+                              &[data-ur-state="enabled"] {
+                                                > .mw_indicator {
+                                                       @extend .sprites-minus;
+                                                       float: right;
+                                                        
+                                                                  }
+                                                      border-radius: 6px 6px 0px 0px;
+                                                      }
+                        }
+                        .BlockContent{
+                              ul{
+                                    padding:2px 0 0;
+                                    background-color: #F5F2E1;
+                                    margin:0px;
+                                    border:1px solid #812600;
+                                    margin:5px;
+                                    margin-top:-6px;
+                                    li{
+                                          display: block;
+                                          width: 100%;
+                                          border-bottom: 1px solid #812600;
+                                          a{
+                                                display: block;
+                                                padding: 11px 10px 10px;
+                                                color: #3D211A;
+                                                text-shadow: 1px 1px 0px white;
+                                                background: url("//assets.moovweb.net/0026b5e1-6e4b-44eb-8bd7-7092332163f2/1819049f-3db7-485c-9f52-4f0da54e46d8/v3/images/menu_go.png") no-repeat 95% center;
+                                                .mw_arrow {
+                                                            @include sprites-menu_go;
+                                                            float: right;
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  }
+            #SideShopByBrand{
+                  padding:10px;        
+                        h2{
+                              background-color: #812600;
+                              border-bottom: 1px solid #5A0D00;
+                              border-top: 1px solid #5A0D00;
+                              font-size: 15px;
+                              padding: 11px 10px 10px;
+                              margin: 0;
+                              color: #fff;
+                              text-shadow: 1px 1px 0px #411B07;  
+                              margin:5px;
+                              border:1px solid #812600;
+
+                              &[data-ur-state="disabled"] {
+                                                 > .mw_indicator {
+                                                      @extend .sprites-plus;
+                                                      float: right;
+                                                                  }
+                                                      border-radius: 6px;
+                                                }
+                              &[data-ur-state="enabled"] {
+                                                > .mw_indicator {
+                                                       @extend .sprites-minus;
+                                                       float: right;
+                                                                  }
+                                                      border-radius: 6px 6px 0px 0px;
+                                                }
+                              }
+                        }
+                        .BlockContent{
+                              ul{
+                                    padding:2px 0 0;
+                                    background-color: #F5F2E1;
+                                    margin:0px;
+                                    border:1px solid #812600;
+                                    margin:5px;
+                                    margin-top:-6px;
+                                    li{
+                                          display: block;
+                                          width: 100%;
+                                          border-bottom: 1px solid #812600;
+                                          a{
+                                                display: block;
+                                                padding: 11px 10px 10px;
+                                                color: #3D211A;
+                                                text-shadow: 1px 1px 0px white;
+                                                background: url("//assets.moovweb.net/0026b5e1-6e4b-44eb-8bd7-7092332163f2/1819049f-3db7-485c-9f52-4f0da54e46d8/v3/images/menu_go.png") no-repeat 95% center;
+                                                .mw_arrow {
+                                                            @include sprites-menu_go;
+                                                            float: right;
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  }
+      .Content{
+            #CategoryHeading{
+                              padding:2px 0 0;
+                              margin:0px;
+                              margin:16px;
+                              margin-top:-6px;
+                        .BlockContent{
+                            margin-bottom: 5px;
+                                          form{
+
+                                          #sort{
+                                                background-color: #812600;
+                                                border-bottom: 1px solid #5A0D00;
+                                                border-top: 1px solid #5A0D00;
+                                                font-size: 15px;
+                                                padding: 9px 10px 10px;
+                                                margin: 0;
+                                                color: #fff;
+                                                text-shadow: 1px 1px 0px #411B07;  
+                                                margin:0px;
+                                                border:1px solid #812600;
+                                                option{
+                                                      display: block;
+                                                      padding: 11px 10px 10px;
+                                                      color: #3D211A;
+                                                      text-shadow: 1px 1px 0px white;
+                                                      background-color:#fff;
+                                                      &:hover{
+                                                            background-color:#812600;
+                                                      }
+                                                }
+                                          }
+                                    }
+                              }  
+            }  
+            #CategoryContent{
+                  #frmCompare{
+                        ul{
+                              margin-left: -30px;
+
+                              li{
+                                    background-color: #f0f0f0;
+                                    border: 1px solid #e5e5e5;
+                                    margin: 6px 0px 0px -6px;
+                                    height: 130px !important;
+                                    list-style: none;
+                                    width: 100% !important;
+
+                                    .ProductImage{
+                                          padding: 8px 0 0 7px;
+                                          float: left;
+                                    }
+                                    .ProductDetails{
+                                         
+                                         float:left;
+                                         width:50%;
+                                    }
+                                    .ProductPriceRating{
+                                         
+                                         float:left;
+                                         width:50%;
+                                    }
+                                    
+                                    .ProductActionAdd{
+                                            a{
+                                            float: left;
+                                            margin: 48px 0 0 0;
+                                            text-indent:-9999px;
+                                            width:50%
+                                            }
+                                    }
+                              }
+                             
+                        }
+                  }
+            }
+      } 
+      
+}  
+    
+      
+      
+
+
+
+
+
+
+
+
+ 

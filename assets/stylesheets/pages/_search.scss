@@ -1,0 +1,40 @@
+#Wrapper{
+	#SearchPageHeader{
+		
+	}
+	#SearchPage{
+			ul{
+				margin:0px;
+			
+					li{
+						padding: 0px 29px 0px 0px;
+					}
+				}
+			#SearchProduct_Container{
+				.SearchContainer{
+					ul{
+						padding:0px;
+						margin:0px;
+						li{
+							background-color: #f0f0f0;
+                            border: 1px solid #e5e5e5;
+                            margin: 6px 0px 0px -6px;
+                            height:218px !important;
+                            list-style: none;
+                            width: 100% !important;
+                            	.ProductImage{
+                                          padding: 8px 0 0 7px;
+                                          float: left;
+                                    }
+                                    .ProductDetails{
+                                       width:72%;
+                                       .ProductPrice{
+                                       	padding: 0px 42px 0px 7px;
+                                       }
+                                    }
+						}
+					}
+				}
+			}
+		}
+	}

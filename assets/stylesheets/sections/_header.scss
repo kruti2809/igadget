@@ -1,0 +1,109 @@
+body{
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  font-size: 13px;
+#Header {
+  border-top: 1px solid black;
+  #Logo {
+    @include background(linear-gradient(#C14102 0, shade(#C14102, 20%)));
+    h1 {
+      margin: 0;
+      padding: 10px;
+      padding-bottom: 24px;
+      	a {
+        	font-size: 22px;
+        	text-shadow: 0 -1px rgba(0,0,0,0.9);
+        	color: white;
+      	}
+    }
+    #TopMenu{
+    	margin-top: -60px;
+    	display: inline-block;
+    	float: right;
+    		ul{
+    	   	 margin: 0;
+    		   padding: 0;
+    		}
+    			li{
+    				text-indent:-9999px;
+    				display:inline-block;
+    				width:52px;
+              a{
+                text-indent: -9999px;
+                display:block;
+              }
+    			}
+    		}
+ 		}
+  .mw_header_bottom {
+    width: 100%;
+    display: block;
+    margin-top:-19px;
+    padding:8px;
+    @include background(linear-gradient(#852201, #6a1b00));
+    .mw_search {
+      display: inline-block;
+      width: 75%;
+      position: relative;
+      input[type='text']{
+        border: 1px solid black;
+        background-color: #f1f0f0;
+        font-size: 13px;
+        padding: 4px;
+        height: 34px;
+        margin: 0;
+        width: 100%;
+        display: block;
+      }
+      .mw_search_btn {
+        height: 34px;
+        position: absolute;
+        top: 0;
+        right: -13px;
+      }
+    }
+    .mw_menu_btn {
+      float: right;
+      display: block;
+      &[data-ur-state="enabled"] span {
+        @extend .sprites-menu-on;
+      }
+    }
+  }
+
+  #Menu{
+    transition: height 0.8s ease-in-out;
+    overflow: hidden;
+    ul{
+      padding:2px 0 0;
+      background-color: #F5F2E1;
+      margin:0px;
+      li{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #C0BCA3;
+          a {
+            display: block;
+            padding: 11px 10px 10px;
+            color: #3D211A;
+            text-shadow: 1px 1px 0px white;
+            background: url("//assets.moovweb.net/0026b5e1-6e4b-44eb-8bd7-7092332163f2/1819049f-3db7-485c-9f52-4f0da54e46d8/v3/images/menu_go.png") no-repeat 95% center;
+            }
+          }
+        }
+        #SideCategoryList{
+          h2{
+            background-color: #812600;
+            border-bottom: 1px solid #5A0D00;
+            border-top: 1px solid #5A0D00;
+            font-size: 15px;
+            padding: 11px 10px 10px;
+            margin: 0;
+            color: #fff;
+            text-shadow: 1px 1px 0px #411B07;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+

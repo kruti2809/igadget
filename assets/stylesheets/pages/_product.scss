@@ -1,0 +1,111 @@
+#Wrapper{
+	.Content{
+		#ProductDetails{
+			.BlockContent{
+                .ProductThumb{
+                    margin: 0 -10px;
+                    background-color: #F5F2E1;
+                    width: auto !important;
+                    height: auto !important;
+                    text-align: center;
+                    padding: 20px 10px;
+                    margin-bottom: 20px;
+                        .ProductThumbImage{
+                            margin: 0px 5px 0px 61px;
+                        }
+                }
+				.ProductMain{
+					background-color: #f2f4f7;
+                    border: 1px solid #CDCDCD;
+                    margin:10px;
+                    padding: 7px 0px 0px 6px;
+                    	.ProductDetailsGrid{
+                    		.DetailRow{
+                    			display:inline-flex;
+                    			width:90%;
+                    			padding: 0px 0px 7px 0px;
+                    		}
+                    	}
+                		.productAddToCartRight{
+                			form{
+                				.ProductAddToCart{
+                					.DetailRow{
+                						.AddCartButton{
+                							width:20%;
+                						}
+                					}
+                				}
+                			}
+                		}
+					}
+				}
+			}
+        #ProductDescription{
+            margin: 0 7px 0 7px;
+            }
+        #ProductByCategory{
+            margin:0 7px 0 7px;
+            }
+        #ProductReviews{
+            margin:0 7px 0 7px;
+            }
+
+		}
+    .Right{
+        #SideProductRecentlyViewed{
+            .BlockContent{
+                #frmCompare{
+                        ul{
+                              margin-left: -30px;
+
+                              li{
+                                    background-color: #f0f0f0;
+                                    border: 1px solid #e5e5e5;
+                                    margin: 6px 0px 0px -6px;
+                                    height: 130px !important;
+                                    list-style: none;
+                                    width: 100% !important;
+
+                                    .ProductImage{
+                                          padding: 8px 0 0 7px;
+                                          float: left;
+                                    }
+                                    .ProductDetails{
+                                         
+                                         float:left;
+                                         width:53%;
+                                    }
+                                    .ProductPriceRating{
+                                         
+                                         float:left;
+                                         width:50%;
+                                    }
+                                    
+                                    .ProductActionAdd{
+                                           
+                                          a{
+                                            color: white; 
+                                            display: block;
+                                            float: left;
+                                            margin: 64px 0 0 0;
+                                            background-color: #852201;
+                                            border: 1px solid #2a1205;
+                                            border-radius: 5px;
+                                            text-align: center;
+                                            padding: 7px 0px 7px 0px;
+                                            position: relative;
+                                            min-width: 120px;
+                                            min-height: 20px;
+                                          }
+                                    }
+                              }
+                             
+                        }
+                  }
+                 #SideProductAddToWishList{
+                    margin:0 7px 0 7px;
+                    }
+            }
+        }
+    }
+}
